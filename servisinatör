@@ -1,0 +1,10 @@
+[Unit]
+Description=Monitor directory and update database
+
+[Service]
+Type=simple
+ExecStart=/home/ahmet/myscript
+
+[Install]
+WantedBy=multi-user.target
+
