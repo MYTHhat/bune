@@ -1,3 +1,7 @@
+# Servisi oluşturmak için: "sudo touch /etc/systemd/system/servisinator.service"
+
+#Servisi düzenlemek için: "sudo nano /etc/systemd/system/servisinator.service"
+
 [Unit]
 Description=Monitor directory and update database
 
@@ -8,3 +12,6 @@ ExecStart=/home/ahmet/myscript
 [Install]
 WantedBy=multi-user.target
 
+#Servisi başlatmak için: "systemctl start servisinator.service"
+
+#Servisi durdurmak için: "systemctl stop servisinator.service"
