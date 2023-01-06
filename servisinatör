@@ -12,6 +12,8 @@ ExecStart=/home/ahmet/myscript
 [Install]
 WantedBy=multi-user.target
 
-#Servisi başlatmak için: "systemctl start servisinator.service"
+
+
+#Servisi aktif etmek için: "systemctl enable servisadi.service"
 
 #Servisi durdurmak için: "systemctl stop servisinator.service"
