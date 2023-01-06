@@ -1,4 +1,4 @@
-# Servisi oluşturmak için: "sudo touch /etc/systemd/system/servisinator.service"
+#Servisi oluşturmak için: "sudo touch /etc/systemd/system/servisinator.service"
 
 #Servisi düzenlemek için: "sudo nano /etc/systemd/system/servisinator.service"
 
